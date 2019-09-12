@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NConsoleGraphics;
 
 namespace ButtonSample
 {
-    class Program
+    interface IRenderObject
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void Render(ConsoleGraphics);
     }
 }
